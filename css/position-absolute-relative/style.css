@@ -1,0 +1,49 @@
+/* *{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+} */
+
+.box{
+    border: 1px solid black;
+    background-color: yellow;
+
+}
+
+#box3{
+    top: 10px;
+    left: 3px;
+    /*follow defalut parameter/flow */
+    /* position: static;*/ 
+
+
+    /* follow top down right up and box leave default flow*/
+    /* position: absolute; */
+
+    /* follow top down right up and box stays in defalut flow*/
+    /*position: relative;*/  
+
+   /*[{if you give any thing absolute give its parent relative property}] */
+
+   /* fixed==absolute. has same properties like absolute just a additional feature that if we scrool the thing will be fixed at his place even if scroll(only scrolling will not affect the fixed place) */
+
+
+   /* sticky==relative */
+   /* just like relative fixed but follows flow in relative area(parent ke andar hi rahega) only {need top value everytime} */
+
+   z-index: -1;
+}
+
+.wrapper{ 
+    height: 250px;
+    border: 1px solid red;
+    position: relative;
+    /* jiska z index jada hoga vo uper aega */
+    z-index: 2;
+}
+
+#box2{
+    top: 0;
+    position: sticky;
+
+}

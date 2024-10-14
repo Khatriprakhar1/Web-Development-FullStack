@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    background-color: yellow;
+}
+#container{
+    border: 3px solid black;
+    width: 700px;
+    height: 400px;
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  /*--auto(original) --contain(scale with pic measurement's) --cover(scale according to size) */
+
+}
+
+p{   
+    color: rgba(70, 80, 69, 43);
+}
+
+body{
+    /* background: linear-gradient(red,green,blue,pink,orange); */
+    /* background:linear-gradient([{to left};{to right};{120deg},{10deg}]red,green,); */
+    background: radial-gradient(red,yellow,pink,limegreen);
+    /* background: conic-gradient(red,green,yellow); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+   
+}

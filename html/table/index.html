@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link href="/favicons/favicon-table.ico" rel="icon">
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    
+</head>
+<body>
+   <div class="wrapper">
+    <h1>Table</h1>
+    <table>
+        <tr>
+            <td>1x1</td>
+            <td>1x2</td>
+            <td>1x3</td>
+        </tr>
+        <tr>
+            <td>2x1</td>
+            <td>2x2</td>
+            <td>2x3</td>
+        </tr>
+        <tr>
+            <td>3x1</td>
+            <td>3x2</td>
+            <td>3x3</td>
+        </tr>
+    </table>
+   </div>
+<br><br>
+   <div>
+    <h1>Table</h1>
+    <table>
+        <caption>A test table with merged cells</caption>
+        <colgroup>
+            <col span="4" style="background-color: rgb(160, 255, 126);">
+        </colgroup>
+        <!--Row 1 -->
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+       <!--Row 2-->
+        <tr>
+ 
+            <td>Height</td>
+            <td>Weight</td>
+
+        </tr>
+        <!-- Row 3-->
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.03</td>
+            <td>40%</td>
+        </tr>
+        Row 4
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.02</td>
+            <td>43%</td>
+        </tr>
+    </table>
+   </div>
+
+ <br><br><br>
+
+    <table>
+        <caption>Ration</caption>
+        <thead>
+            <tr>
+                <th>Items</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rice</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Daal</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Oil</td>
+                <td>130</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>240</th>
+            </tr>
+        </tfoot>
+    </table>
+
+     
+
+
+</body>
+</html>

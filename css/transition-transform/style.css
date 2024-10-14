@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #bd4b4b;
+    /* selected one have property other side will just skip and fast forwaard to the output */
+    /* transition-property: width; */
+    
+}
+
+.box:hover{
+    width: 500px;
+    height: 500px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+
+
+    /* linear;ease-in;ease-out;etc */
+    /* transition-timing-function: ease-out; */
+
+
+    /* transition: property duration timing-function delay (short trick)*/
+    /* transition: all 0.5s ease-out 0.1; */
+
+   /* transform: translate(20px,20px); */
+   /* transform: rotate(90deg);
+   transform: scale(1.3); */
+
+   transform: translate(80px) translateY(90px) rotate(90deg) scale(1.2);
+
+   /* how much tilt */
+   /* transform: skew(45deg); */
+
+}
+
+
+
